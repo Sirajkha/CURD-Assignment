@@ -73,16 +73,12 @@ npm start    # For production
 ```
 - Response Example:
 ```json
-"message" :User Login Successfully
+"message" :"User Login Successfully"
 ```
 ### 3.Get User Details (Protected)
 - URL: /api/auth/user
 - Method:GET
 - Description: Retrieves the logged-in user's details. Requires the user to be authenticated using a valid JWT token.
-- Payload:
-```json
-
-```
 - Headers:
   - Authorization: Bearer <token>
 - Response example:
